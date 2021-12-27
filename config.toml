@@ -1,7 +1,6 @@
 # Page settings
 
-baseURL = ""
-googleAnalytics = ""
+baseURL = "0.0.0.0"
 languageCode = "en"
 theme = "hugo-devresume-theme"
 title = "xingqiang.info.resume"

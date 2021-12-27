@@ -1,0 +1,213 @@
+# Page settings
+
+baseURL = ""
+googleAnalytics = ""
+languageCode = "en"
+theme = "hugo-devresume-theme"
+title = "xingqiang.info.resume"
+
+[params]
+author = "xingqiang,chen"
+description = "Resume"
+
+primaryColor = "#5282EC"
+textPrimaryColor = "#292929"
+
+[params.profile]
+avatar = "face.png"
+enable = true
+name = "Xingqiang Chen"
+tagline = "Senior Researcher of Algorithms"
+
+[params.contact]
+enable = true
+location = "Hangzhou, China"
+
+[[params.contact.list]]
+icon = "fas fa-phone-square"
+text = "86+ 150-0133-4125"
+url = "tel:#"
+[[params.contact.list]]
+icon = "fas fa-envelope-square"
+text = "xingqiang.chen.info@gmail.com"
+url = "mailto:#"
+
+[params.skills]
+enable = true
+
+[[params.skills.list]]
+title = "Programming Skills"
+[[params.skills.list.items]]
+details = "Python/Java/C++"
+[[params.skills.list.items]]
+details = " Hadoop/Flink/Spark"
+[[params.skills.list.items]]
+details = "Docker/Kubernetes/KubeFlow"
+[[params.skills.list.items]]
+details = "TensorFlow/PyTorch"
+
+[[params.skills.list]]
+title = "Deep Learning"
+[[params.skills.list.items]]
+details = "Transformers/BERT/GNN/CNN"
+[[params.skills.list.items]]
+details = "Reinforcement Learning"
+[[params.skills.list.items]]
+details = "XGBOOST/SVM"
+
+[[params.skills.list]]
+title = "Interdisciplinary Background"
+[[params.skills.list.items]]
+details = "Physics/Bioinformatics"
+[[params.skills.list.items]]
+details = "Biophysics"
+[[params.skills.list.items]]
+details = "AI/CS"
+
+[params.education]
+enable = true
+
+[[params.education.list]]
+dates = "Sep. 2014 - Jul. 2017"
+degree = "PhD’s in Biophysics and Condensed Matter"
+university = "Xiamen University"
+[[params.education.list]]
+dates = "Sep. 2010 - Jul. 2014"
+degree = "B.S. in Theoretical Physics"
+university = "Xiamen University"
+
+[params.awards]
+enable = true
+
+[[params.awards.list]]
+body = "Invited as one of Competition Judges of The First Screening on Best Practices of Applied Algorithms."
+date = "2021"
+name = "BPAA"
+[[params.awards.list]]
+body = "IEEE ICDM 2018 global meteorological AI challenge. Season 1 rank 57/1739,Season 2 rank 32/1739."
+date = "2018"
+name = "EEE ICDM 2018"
+
+[[params.awards.list]]
+body = "Won the Meritorious Winner of Mathematical Contest In Modeling of North American College Students."
+date = "2013"
+name = "MCM/ICM"
+
+[[params.awards.list]]
+body = "Won the Sixth Place Around Global Teams in the International Solar Energy Decathlon Competition."
+date = "2013"
+name = "Solar Energy Decathlon 2013"
+
+[[params.awards.list]]
+body = "Won Outstanding Prize of Contemporary Undergraduate Mathematical Contest in Modeling."
+date = "2012"
+name = "CUMCM"
+[params.languages]
+enable = true
+
+[[params.languages.list]]
+level = "Native"
+name = "Chinese"
+[[params.languages.list]]
+level = "Professional"
+name = "English"
+
+[params.interests]
+enable = true
+
+[[params.interests.list]]
+name = "Climbing"
+[[params.interests.list]]
+name = "Reading"
+[[params.interests.list]]
+name = "Photography"
+[[params.interests.list]]
+name = "Travelling"
+
+[params.summary]
+enable = true
+text = "I am Looking for FULL TIME job opportunities in Researcher of AI Aid Drug Discovery/Data Scientist/Expert Researcher in Recommendation System."
+[params.experience]
+enable = true
+
+[[params.experience.list]]
+company = "BioMap"
+dates = "Sep. 2021 - Present"
+title = "Senior Researcher of Algorithms"
+[[params.experience.list.items]]
+details = "Bioinformatics/Biochemistry/Cheminformatics data interpretation and extraction to recognize data for drug target discovery and antibody design algorithms research as well as Biotech-Tool-chain development."
+
+[[params.experience.list]]
+company = "Yalla Group (NYSE: YALA)"
+dates = "Sep. 2020 - Sep. 2021"
+title = "Senior Researcher of Algorithms"
+[[params.experience.list.items]]
+details = "Developing ChatRooms Recommendation System of Yalla App. Building up recommendation modules for social scenarioand upgrading recommendation system’s performance to improve the new users’ retention rate and activation time."
+[[params.experience.list.items]]
+details = "Developing User Risk Control System of Ludo App. Building up modules of Risk Control System for Social&Game scenario and upgrading system’s performance to decrease the users’ refund rate."
+[[params.experience.list.items]]
+details = "Developing GAME AI Robot for Card Games. Building up modules of GAME AI Robot for games scenario and upgrading system’s performance to increase the users’ retention rate and activation time."
+
+[[params.experience.list]]
+company = "Gejia Network Tech"
+dates = "Mar. 2019 - Sep. 2020"
+title = "Senior Researcher in Recommendation"
+[[params.experience.list.items]]
+details = "Building up Recommendation Modules for E-commerce Scenario. Developing a real-time feature extraction process based on Flink for recommendation system, improves CTR&CVR of 20% and 10% respectively. Developing an embedding matching strategy for based on the way of vector retrieval, improves CTR&CVR of 5% and 3% respectively."
+[[params.experience.list.items]]
+details = "Upgrading Recommendation System’s Performance. Developing multi-objective model, CTR&CVR improve by 3% and 2% respectively. Optimizing matching strategy of recommendation system. Add the matching strategy of users’ category pref- erence and the users’ shop preference, increase CTR&CVR by 5% and 3% respectively."
+
+[[params.experience.list]]
+company = "Bianlifeng Tech"
+dates = "Mar. 2017 - Mar. 2019"
+title = "Machine Learning Engineer"
+[[params.experience.list.items]]
+details = "Leading Sales Forecasting Project. Training sales forecasting model to achieve accurate demand and supply of 50 stores around Beijing area."
+[[params.experience.list.items]]
+details = "Leading Customers&Products Recognition Project. Create a face detecting system to binding the customer’s App ID when they entering the store or going to checkout; build a detecting and recognizing models of the goods automatically to assist the customer express checkout."
+
+[params.projects]
+enable = true
+
+[[params.projects.list]]
+meta = "China National Funds, Xiamen university, China, Sep. 2014 - Mar. 2017"
+tagline = "Being engaged in the research of proteins’ dynamics simulations combined with quantum mechanics as well as calculate and analysis the biological information of proteins. Both of those being related with an interdisciplinary knowledge requirement of theory physics, structure biology, computing chemistry and computer science."
+title = "Molecular Dynamics Simulation of Proteins with QM/MM model"
+[[params.projects.list]]
+meta = "R&D Engineer Intern, Lepu Medical, China, Mar. 2016 - Mar. 2017"
+tagline = "Liquid biopsy kits always need specific biomarkers to screen potential cancer patients. With the help of the existing gene chip (TCGA&GEO) data, we analyze 10,000 samples and locate the methylation site on human gene Septin9 which recall the early characterization of colon cancer, and give more accurate guidance and suggestions for develop the clinical diagnosis kit of the colon cancer."
+title = "Developing Liquid Biopsy of ct-DNA Kit and DNA Methylation Data Analysis"
+
+[params.information]
+enable = true
+
+[[params.information.list]]
+title = "Papers"
+[[params.information.list.items]]
+details = "Cai Y, Su M, Ahmad A, Hu X, Sang J, Kong L, Chen X, Wang C, Shuai J, Han A. Conformational dynamics of the essential sensor histidine kinase WalK. Acta Crystallographica Section D: Structural Biology. 2017 Oct 1;73(10):793-803."
+[[params.information.list.items]]
+details = "Xia H, Chen X, Chen X, Cheng J, Liu Y, Chen X, Zhang Q, Zou G. Chiral discrimination of amino acid enantiomers based on different interactions with Cu2+. Sensors and Actuators B: Chemical. 2018 Jan 1;254:44-51."
+[[params.information.list.items]]
+details = "Ahmad A, Cai Y, Chen X, Shuai J, Han A. Conformational dynamics of response regulator RegX3 from Mycobacterium tuberculosis. PloS one. 2015 Jul 22;10(7):e0133389."
+[[params.information.list.items]]
+details = "Chen Y, Qi H, Li X, Cai M, Chen X, Liu W, Shuai J. Suppressing effect of C a 2+ blips on puff amplitudes by inhibiting channels to prevent recovery. Physical Review E. 2016 Aug 15;94(2):022411."
+
+[[params.information.list]]
+details = "Climbing, Reading, Photography, Travelling"
+title = "Interests"
+
+[params.social]
+enable = true
+
+[[params.social.list]]
+icon = "fab fa-github-square"
+title = "@XingqiangChen"
+url = "https://github.com/chenxingqiang"
+[[params.social.list]]
+icon = "fab fa-linkedin"
+title = "@XingqiangChen"
+url = "https://www.linkedin.com/in/xingqiang-chen-56383889/"
+[[params.social.list]]
+icon = "fab fa-twitter-square"
+title = "@XingqiangChen"
+url = "https://twitter.com/XingqiangChen"
